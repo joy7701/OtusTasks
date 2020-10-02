@@ -9,5 +9,7 @@ script:
 - cd bin
 - cmake ..
 - cmake --build .
-- cmake --build . target test
-- cmake --build . target package
+- cmake --build . --target helloworld
+- cmake --build . --target helloworld_lib
+- cmake --build . --target test_version
+- ./test_version
