@@ -13,3 +13,13 @@ script:
 - cmake --build . --target helloworld_lib
 - cmake --build . --target test_version
 - ./test_version
+env:
+  global:
+    secure: iYNbbeuiqBukhGNtfTwApvt2zW/yFmNh6wR4G3EzLUH3O4qyyUIBM7D3ktU86oPyvJffKEFyPTFDpgnsyLqTanDfZFodtgeCrN3IzhozOQ6CA/OxzcBSZhBt85St7KsUo18SdRDNDIUJ++jZqegv8Ym2yAa6ZhL2nS3TOO3WpRUw7NadEAo/Jjnk+TD6MSDtm2NT3R84mIm+AhU993P6GZrNQ25dJosncJLh1stufCGTcXWKDnl65H3DP3WDcTAIGP9qiGbm+bqdYqAKdHMX8z/C/lGLUagxFT4EtF+Cotg+UxTczBRZ6DpwL9ymj1C5bwTg+g1kIEUbtAukHeb2Ki/dHPA0jIinncB1ceBhj21M9ypJDlfMOSsGrBc3gt8vXcQaZUY884I2YtHq1haZIQE6EnovGB8poLZF1z/KWG/8rklrDBlSL25mWN0g8+njqIIcE9LENiagJggl9HHtpzIiYJrFctIOLzh4utRSo5eY5AyPDcCdcWkwe7axuo0YysExjY7cXLzoQ+8MixlM62wubo00OUQKestCwjpNM52quE7du6W8b5zTapeP5SdrLJ+SmqYYY5YzY1NNjg7te207xDbJeYOct3n+iOADf9q68qHpmrZUvmmW5qV+M/VFnPOO7lmPKpX+xvJ8J/EfQBPcqJ2kKMmwH09lC1T/wRY=
+deploy:
+  provider: bintray
+  file: "descriptor.json"
+  user: "joy7701"
+  key: "MyAPIKey"
+  skip-cleanup: true
+ 
