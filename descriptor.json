@@ -13,12 +13,12 @@
 	"public_stats": false
 },
 "version": {
-	"name": "0.5",
+	"name": $ENV{TRAVIS_BUILD_NUMBER},
 	"desc": "This is a version"
 },
-"files": 
+"files":
 [
-{"includePattern": "target/(.*)", "excludePattern": "target/.*.zip$", "uploadPattern": "/$1"}
+{"includePattern": "(.*)", "excludePattern": "*.zip$", "uploadPattern": "/$1"}
 ],
 "publish": true
 }
