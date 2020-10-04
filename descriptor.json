@@ -13,7 +13,7 @@
 	"public_stats": false
 },
 "version": {
-	"name": $ENV{TRAVIS_BUILD_NUMBER},
+	"name": "0.5",
 	"desc": "This is a version"
 },
 "files":
