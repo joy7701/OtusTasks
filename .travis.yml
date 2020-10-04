@@ -13,6 +13,7 @@ script:
 - cmake --build . --target helloworld_lib
 - cmake --build . --target test_version
 - "./test_version"
+- cd ../../
 deploy:
   provider: bintray
   file: descriptor.json
