@@ -2,6 +2,7 @@
 "package": {
 	"name": "Package_hello_world", // Bintray package name
 	"repo": "hello_world_debian_packages", // Bintray repository name
+	"subject": "joy7701",
 	"desc": "I was pushed completely automatically",
 	"website_url": "jfrog.com",
 	"issue_tracker_url": "https://github.com/joy7701/OtusTasks/issues",
