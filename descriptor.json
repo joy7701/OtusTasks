@@ -18,7 +18,7 @@
 },
 "files":
 [
-{"includePattern": "(.*)", "excludePattern": "*.zip$", "uploadPattern": "/$1"}
+{"includePattern": "*", "excludePattern": "", "uploadPattern": "/$1"}
 ],
 "publish": true
 }
