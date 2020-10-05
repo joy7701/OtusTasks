@@ -17,7 +17,7 @@ script:
 - cd ../../
 deploy:
   provider: bintray
-  file: descriptor.json
+  file: ./bintray-conf.json
   user: joy7701
   skip-cleanup: true
   key:
