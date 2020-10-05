@@ -18,7 +18,7 @@
 	},
 	"files":
 		[
-		{"includePattern": "Otus01/bin(.*)*/(.*\\.gem)", "excludePattern": ".*/do-not-deploy/.*", "uploadPattern": "gems/$2"}
+		{"includePattern": "Otus01/bin/helloworld", "uploadPattern": "/$1"}
 		],
 	"publish": true
 }
