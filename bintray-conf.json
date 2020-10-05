@@ -18,7 +18,7 @@
 	},
 	"files":
 		[
-		{"includePattern": "Otus01/bin/helloworld", "uploadPattern": "hello_world_debian_packages/Package_hello_world/$1"}
+		{"includePattern": "Otus01/bin/helloworld", "uploadPattern": "/$1"}
 		],
 	"publish": true
 }
