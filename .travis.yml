@@ -18,6 +18,8 @@ script:
 deploy:
   provider: bintray
   file: ./bintray-conf.json
+        - "Otus01/bin/helloworld"
+        - "Otus01/bin/test_version"
   user: joy7701
   skip-cleanup: true
   key:
