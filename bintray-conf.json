@@ -18,7 +18,7 @@
 	},
 	"files":
 		[
-		{"includePattern": "Otus01/bin/helloworld", "excludePattern": ".*/do-not-deploy/.*", "uploadPattern": "$1"}
+		{"includePattern": "Otus01/bin/helloworld", "uploadPattern": "$1"}
 		],
 	"publish": true
 }
