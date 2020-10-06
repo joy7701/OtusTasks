@@ -6,6 +6,7 @@ before_script:
 - echo "deb http://archive.ubuntu.com/ubuntu xenial main universe" | sudo tee -a /etc/apt/sources.list
 - sudo apt-get update -qq
 script:
+- envsubst < bintray-conf.json | tee bintray-conf.json
 - cd Otus01
 - mkdir bin
 - cd bin
@@ -15,6 +16,7 @@ script:
 - cmake --build . --target helloworld_lib
 - cmake --build . --target test_version
 - "./test_version"
+- cp helloworld helloworld-$TRAVIS_BUILD_NUMBER/ur/local/bin
 - cd ../../
 deploy:
   provider: bintray
