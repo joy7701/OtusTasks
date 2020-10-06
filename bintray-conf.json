@@ -18,7 +18,14 @@
 	},
 	"files":
 		[
-		{"includePattern": "Otus01/bin/helloworld", "uploadPattern": "/$1"}
+		{"includePattern": "Otus01/bin/helloworld", "uploadPattern": "/$1",
+		"matrixParams": {
+			"deb_distribution": "vivid",
+			"deb_component": "main",
+			"deb_architecture": "amd64",
+			"override": 1
+		}
+}
 		],
 	"publish": true
 }
