@@ -16,7 +16,6 @@ script:
 - cmake --build . --target helloworld_lib
 - cmake --build . --target test_version
 - "./test_version"
-- cp helloworld helloworld-$TRAVIS_BUILD_NUMBER/ur/local/bin
 - cd ../../
 deploy:
   provider: bintray
