@@ -18,7 +18,7 @@ script:
 - "./test_version"
 - cp ../make_deb_package.sh
 - chmod +x make_deb_package.sh
-- ./make_deb_package.sh
+- "./make_deb_package.sh"
 - cd ../../
 deploy:
   provider: bintray
