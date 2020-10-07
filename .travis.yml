@@ -16,7 +16,7 @@ script:
 - cmake --build . --target helloworld_lib
 - cmake --build . --target test_version
 - "./test_version"
-- cp ../make_deb_package.sh
+- cp ../make_deb_package.sh .
 - chmod +x make_deb_package.sh
 - "./make_deb_package.sh"
 - cd ../../
