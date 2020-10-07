@@ -18,7 +18,7 @@
 	},
 	"files":
 		[
-		{"includePattern": "Otus01/bin/helloworld", "uploadPattern": "/helloworld",
+		{"includePattern": "Otus01/bin/helloworld_0.0.$TRAVIS_BUILD_NUMBER.deb", "uploadPattern": "/helloworld_0.0.$TRAVIS_BUILD_NUMBER.deb",
 		"matrixParams": {
 			"deb_distribution": "vivid",
 			"deb_component": "main",
